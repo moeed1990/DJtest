@@ -124,3 +124,7 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
     '/var/www/static/',
 ]
+
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())
