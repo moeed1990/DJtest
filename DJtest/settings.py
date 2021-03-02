@@ -25,7 +25,7 @@ SECRET_KEY = 'kd8tj5ns-p7rzi@6h*6%hjg&zs$%e5jr-lk4z(ob&ndbc611h%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['altatech.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['altatech.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
